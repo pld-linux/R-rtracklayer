@@ -3,7 +3,7 @@
 Summary:	R interface to genome browsers and their annotation tracks
 Name:		R-%{packname}
 Version:	1.22.0
-Release:	2
+Release:	3
 License:	Artistic 2.0
 Group:		Applications/Engineering
 Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz

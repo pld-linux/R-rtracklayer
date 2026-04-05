@@ -2,14 +2,14 @@
 
 Summary:	R interface to genome browsers and their annotation tracks
 Name:		R-%{packname}
-Version:	1.22.0
-Release:	3
+Version:	1.70.1
+Release:	1
 License:	Artistic 2.0
 Group:		Applications/Engineering
-Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	1dad994b4779769e935902e9c8384959
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	c399624f0938456f2c31d5f58112b529
 Patch0:		bogus-deps.patch
-URL:		http://www.bioconductor.org/packages/release/bioc/html/rtracklayer.html
+URL:		https://bioconductor.org/packages/release/bioc/html/rtracklayer.html
 BuildRequires:	R
 BuildRequires:	R-cran-XML
 BuildRequires:	R-cran-RCurl
